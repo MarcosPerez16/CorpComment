@@ -28,7 +28,6 @@ function App() {
         }),
     [feedbackItems]
   );
-
   const handleAddToList = async (text: string) => {
     const companyName = text
       .split(" ")
@@ -56,7 +55,6 @@ function App() {
       }
     );
   };
-
   const handleSelectCompany = (company: string) => {
     setSelectedCompany(company);
   };
